@@ -25,12 +25,7 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions =
-                <45  0  1  2  3  4  5>,
-                <43 12 13 14 15 16 17>,
-                <41 24 25 26 27 28   >,
-                <         34 35 36   >;
-
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 29 30 31 32 33 37 38 39 6 7 8 9 10 11 18 19 20 21 22 23 29 30 31 32 33 37 38 39>;
             hold-trigger-on-release;
         };
 
@@ -43,12 +38,7 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions =
-                < 6  7  8  9 10 11 44>,
-                <18 19 20 21 22 23 42>,
-                <   29 30 31 32 33 40>,
-                <   37 38 39         >;
-
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 34 35 36>;
             hold-trigger-on-release;
         };
     };
@@ -67,7 +57,7 @@
 
             bindings = <
   &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y    &kp C_MUTE  &kp C_PP  &kp F     &kp G               &kp C                 &kp R             &kp L
-  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml U LEFT_SHIFT  &kp I    &kp LALT    &kp RALT  &kp D     &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I    &kp LALT    &kp RALT  &kp D     &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
   &kp SEMI         &kp Q            &kp J                &kp K              &kp X                          &kp B     &kp M               &kp W                 &kp V             &kp Z
                                     &kp ESC              &kp SPACE          &kp TAB                        &kp BSPC  &kp ENTER           &kp DEL
             >;
