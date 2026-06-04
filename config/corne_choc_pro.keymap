@@ -99,10 +99,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-            &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y       &kp C_MUTE  &kp C_PP  &kp F             &kp G               &kp C                 &kp R             &kp L
-              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I       &kp LALT    &kp RALT  &kp D             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-              &kp SEMI         &kp Q            &kp J                &kp K              &kp X                             &kp B             &kp M               &kp W                 &kp V             &kp Z
-                                 &kp LGUI      &trans        &kp SPACE                             &kp LGUI  &trans    &kp SPACE
+              &none            &none            &none                &none              &none       &none  &none  &none             &none               &none                 &none             &none
+              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none       &none    &none  &none             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+              &none         &none            &none                &none              &none                             &none             &none               &none                 &none             &none
+                                 &none      &none        &none                             &none  &none    &none
             >;
         };
 
@@ -116,70 +116,50 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp LCTRL  &kp RCTRL  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
-  &trans    &trans  &trans    &trans    &trans     &kp LALT   &kp RALT   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-  &trans    &trans  &trans    &trans    &trans                           &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
-                    &kp LGUI  &trans    &kp SPACE                        &kp RET    &trans     &kp RALT
+ &none            &none            &none                &none              &none       &none  &none  &none             &none               &none                 &none             &none
+              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none       &none    &none  &none             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+              &none         &none            &none                &none              &none                             &none             &none               &none                 &none             &none
+                                 &none      &none        &none                             &none  &none    &none
             >;
         };
 
         left_3 {
             display-name = "EXTRA 1";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
+  &none            &none            &none                &none              &none       &none  &none  &none             &none               &none                 &none             &none
+              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none       &none    &none  &none             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+              &none         &none            &none                &none              &none                             &none             &none               &none                 &none             &none
+                                 &none      &none        &none                             &none  &none    &none
             >;
         };
 
         right_1 {
             display-name = "EXTRA 2";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
+  &none            &none            &none                &none              &none       &none  &none  &none             &none               &none                 &none             &none
+              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none       &none    &none  &none             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+              &none         &none            &none                &none              &none                             &none             &none               &none                 &none             &none
+                                 &none      &none        &none                             &none  &none    &none
             >;
         };
 
         right_2 {
             display-name = "EXTRA 3";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
+  &none            &none            &none                &none              &none       &none  &none  &none             &none               &none                 &none             &none
+              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none       &none    &none  &none             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+              &none         &none            &none                &none              &none                             &none             &none               &none                 &none             &none
+                                 &none      &none        &none                             &none  &none    &none
             >;
         };
 
         right_3 {
             display-name = "EXTRA 4";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
-            >;
-        };
-
-        extra_layer_5 {
-            display-name = "EXTRA 5";
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
-            >;
-        };
-
-        extra_layer_6 {
-            display-name = "EXTRA 6";
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
+  &none            &none            &none                &none              &none       &none  &none  &none             &none               &none                 &none             &none
+              &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none       &none    &none  &none             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+              &none         &none            &none                &none              &none                             &none             &none               &none                 &none             &none
+                                 &none      &none        &none                             &none  &none    &none
             >;
         };
     };
