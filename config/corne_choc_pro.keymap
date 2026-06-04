@@ -153,10 +153,10 @@
         right_2 {
             display-name = "EXTRA 3";
             bindings = <
-  &none            &none            &none                &none              &none  &none  &none  &none  &none               &none                 &none             &none
-  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none  &none  &none  &none  &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-  &none            &none            &none                &none              &none                &none  &none               &none                 &none             &none
-                                    &none                &none              &none                &none  &none               &none
+  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT   &none  &none  &none  &none            &none              &none          &none
+  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL  &none  &none  &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH                 &none  &none            &none              &none          &none
+                     &kp DOT  &kp N0  &kp MINUS                &none  &none            &none
             >;
         };
 
