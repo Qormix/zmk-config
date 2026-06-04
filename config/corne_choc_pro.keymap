@@ -42,7 +42,7 @@
             hold-trigger-on-release;
         };
 
-		  ltl: layer_tap_left {
+        ltl: layer_tap_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -67,14 +67,13 @@
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 34 35 36>;
             hold-trigger-on-release;
         };
-		  
     };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "BASE";
 
             // ------------------------------------------------------------------------------
             // |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP   |  Y  |  U   |  I  |  O  |  P  |
@@ -83,14 +82,14 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-  &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y    &kp C_MUTE  &kp C_PP  &kp F     &kp G               &kp C                 &kp R             &kp L
-  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I    &kp LALT    &kp RALT  &kp D     &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-  &kp SEMI         &kp Q            &kp J                &kp K              &kp X                          &kp B     &kp M               &kp W                 &kp V             &kp Z
-                                    &kp ESC              &kp SPACE          &kp TAB                        &kp BSPC  &kp ENTER           &kp DEL
+  &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y       &kp C_MUTE  &kp C_PP  &kp F             &kp G               &kp C                 &kp R             &kp L
+  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I       &kp LALT    &kp RALT  &kp D             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+  &kp SEMI         &kp Q            &kp J                &kp K              &kp X                             &kp B             &kp M               &kp W                 &kp V             &kp Z
+                                    &ltl 1 ESCAPE        &ltl 2 SPACE       &ltl 3 TAB                        &ltr 4 BACKSPACE  &ltr 5 ENTER        &ltr 6 DELETE
             >;
         };
 
-        lower_layer {
+        left_1 {
             display-name = "NUMBER";
 
             // --------------------------------------------------------------------------------
@@ -107,7 +106,7 @@
             >;
         };
 
-        raise_layer {
+        left_2 {
             display-name = "SYMBOL";
 
             // -----------------------------------------------------------------------------
@@ -124,7 +123,7 @@
             >;
         };
 
-        extra_layer_1 {
+        left_3 {
             display-name = "EXTRA 1";
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -134,7 +133,7 @@
             >;
         };
 
-        extra_layer_2 {
+        right_1 {
             display-name = "EXTRA 2";
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -144,7 +143,7 @@
             >;
         };
 
-        extra_layer_3 {
+        right_2 {
             display-name = "EXTRA 3";
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -154,7 +153,7 @@
             >;
         };
 
-        extra_layer_4 {
+        right_3 {
             display-name = "EXTRA 4";
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
