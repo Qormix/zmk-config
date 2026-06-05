@@ -107,10 +107,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-  &none            &none            &none                &none              &none  &none  &none  &none  &none               &none                 &none             &none
-  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &none  &none  &none  &none  &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-  &kp K_UNDO       &kp K_CUT        &kp K_COPY           &kp K_PASTE        &none                &none  &none               &none                 &none             &none
-                                    &none                &none              &none                &none  &none               &none
+  &kp RC(Q)   &kp RC(W)  &kp RC(E)   &kp RC(R)    &kp RC(T)  &none  &none  &none  &none               &none                 &none             &none
+  &kp RC(A)   &kp RC(S)  &kp RC(D)   &kp RC(F)    &kp RC(G)  &none  &none  &none  &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp RC(B)                &none  &none               &none                 &none             &none
+                         &none       &none        &none                    &none  &none               &none
             >;
         };
 
