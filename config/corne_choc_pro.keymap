@@ -90,10 +90,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-  &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y       &none  &bl BL_INC  &kp F             &kp G               &kp C                 &kp R             &kp L
-  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I       &none  &bl BL_DEC  &kp D             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
-  &kp SEMI         &kp Q            &kp J                &kp K              &kp X                          &kp B             &kp M               &kp W                 &kp V             &kp Z
-                                    &ltl 1 ESCAPE        &ltl 2 SPACE       &ltl 3 TAB                     &ltr 4 BACKSPACE  &ltr 5 ENTER        &ltr 6 DELETE
+  &kp SQT          &kp COMMA        &kp PERIOD           &kp P              &kp Y       &bl BL_TOG  &bl BL_INC  &kp F             &kp G               &kp C                 &kp R             &kp L
+  &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I       &none       &bl BL_DEC  &kp D             &hmr RIGHT_SHIFT H  &hmr RIGHT_CONTROL T  &hmr RIGHT_ALT N  &hmr RIGHT_GUI S
+  &kp SEMI         &kp Q            &kp J                &kp K              &kp X                               &kp B             &kp M               &kp W                 &kp V             &kp Z
+                                    &ltl 1 ESCAPE        &ltl 2 SPACE       &ltl 3 TAB                          &ltr 4 BACKSPACE  &ltr 5 ENTER        &ltr 6 DELETE
             >;
         };
 
